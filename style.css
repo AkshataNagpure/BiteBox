@@ -1,0 +1,204 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+header{
+    width:100%;
+    background:black;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav{
+    width:90%;
+    margin:auto;
+    height:80px;
+    display:flex;
+    justify-content:space-between; 
+    align-items:center;
+}
+
+nav ul{
+    display:flex;
+    align-items:center;
+    list-style:none;
+    gap:35px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    display:flex;
+    align-items:center;
+    gap:6px;
+}
+
+nav ul li a:hover{
+    color:red;
+}
+
+.login{
+    background:red;
+    padding:10px 14px;
+    border-radius:6px;
+}
+
+.login a{
+    color:white;
+}
+
+
+.hero{
+    height: 90vh;
+    background: url("bg.png") no-repeat center/cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+
+.hero button{
+    margin-top:15px;
+    padding:10px 20px;
+    background:red;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.hero button:hover{
+    background:darkred;
+}
+
+.video-section{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:50px;
+    gap:40px;
+}
+
+.video-text{
+    flex:1;
+}
+
+.video-box{
+    flex:1;
+}
+
+.video-box video {
+    width:100%;
+    border-radius:10px;
+}
+
+.video-text h2{
+    font-size:32px;
+    margin-bottom:15px;
+}
+
+.video-text p{
+    font-size:18px;
+    color:#444;
+}
+
+.about {
+    text-align:center;
+    padding:60px 20px;
+    background:#f9f9f9;
+}
+
+.about h2 {
+    font-size : 32px;
+    margin-bottom: 20px;
+    color:rgba(255,0,0,0.615);
+
+}
+
+.about p{
+    max-width:700px;
+    margin:auto;
+    font-size:18px;
+    color:#555;
+    line-height:1.6;
+}
+
+.card{
+    background:#fff;
+    padding:15px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+    width:100%;
+    object-fit:cover; 
+}
+
+.card button{
+    background:red;
+    color:white;
+    border:none;
+    padding:6px 12px;
+    border-radius:5px;
+    cursor:pointer;
+    margin-top:5px;
+}
+
+.card button:hover{
+    background:darkred;
+}
+
+.menu-container{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+    padding:20px;
+}
+
+.category-icons{
+    display:flex;
+    gap:20px;
+    padding:20px;
+    overflow:auto;
+    background:#fff;
+    justify-content:center;
+}
+
+.icon-box{
+    min-width:100px;
+    text-align:center;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.icon-box img{
+    width:70px;
+    height:70px;
+    object-fit:cover;
+    border-radius:50%;
+    border:2px solid #eee;
+    padding:5px;
+    
+}
+
+.icon-box p{
+    margin-top:8px;
+    font-size:14px;
+    
+}
+
+.icon-box img:hover{
+    border-color:rgb(0,0,0);
+    transform:scale(1.1);
+}
+
+.icon-box p:hover{
+    color:red;
+}
