@@ -202,3 +202,162 @@ nav ul li a:hover{
 .icon-box p:hover{
     color:red;
 }
+
+table{
+    width:70%;
+    border-collapse:collapse;
+    background:#fff;
+    border-radius:10px;
+    overflow:hidden;
+    margin:auto;
+}
+
+thead{
+    background:#f80202;
+    color:white;
+}
+
+th,td{
+    padding:15px;
+    text-align:center;
+}
+
+tbody tr{
+    border-bottom:1px solid #ddd;
+}
+
+.item{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.item img{
+    width:70px;
+    height:70px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.remove{
+    background:red;
+    color:white;
+    border:none;
+    padding:5px 10px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.remove:hover{
+    background:darkred;
+}
+
+.grand-total td{
+    font-weight:bold;
+    font-size:18px;
+}
+
+.grand-total button{
+    margin-top:15px;
+    padding:10px 20px;
+    background:red;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.grand-total button:hover{
+    background:darkred;
+}
+
+.qty-box{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+}
+
+.qty-box button{
+    width:28px;
+    height:28px;
+    border:none;
+    background:red;
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+    border-radius:4px;
+}
+
+.qty-box button:hover{
+    background:#cc0000;
+}
+
+.qty-box span{
+    font-size:16px;
+    font-weight:bold;
+    min-width:20px;
+    text-align:center;
+}
+
+.auth-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,#000,#1c1c1c);
+
+}
+
+.auth-box{
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+.auth-box h2{
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.auth-box input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+.auth-box input:focus{
+    border-color: red;
+}
+
+.auth-box button{
+    width: 100%;
+    padding: 10px;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.auth-box button:hover{
+    background-color: #cc0000;
+}
+
+.auth-box p{
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.auth-box a{
+    color: rgba(133, 3, 3, 0.482);
+    text-decoration: none;
+}
+
