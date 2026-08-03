@@ -24,3 +24,35 @@ function togglePassword(){
         passwordInput.type="password";
     }
 }
+
+// function toggleMenu(){
+//     let menu = document.getElementById("navMenu");
+//     let icon = document.getElementById("menuIcon");
+
+//     menu.classList.toggle("show");
+
+//     if(menu.classList.contains("show")){
+//         icon.classList.remove("fa-bars");
+//         icon.classList.add("fa-xmark");
+
+//     }else{
+//         icon.classList.remove("fa-xmark");
+//         icon.classList.add("fa-bars");
+//     }
+// }
+
+
+function toggleMenu() {
+    let menu = document.getElementById("navMenu");
+    let icon = document.getElementById("menuIcon");
+
+    menu.classList.toggle("show");
+
+    if (menu.classList.contains("show")) {
+        icon.classList.remove("fa-bars");
+        icon.classList.add("fa-times");   
+    } else {
+        icon.classList.remove("fa-times");
+        icon.classList.add("fa-bars");
+    }
+}
